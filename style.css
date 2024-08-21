@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-/* Main Container */
+
 .container {
     width: 100%;
     min-height: 100vh;
@@ -14,7 +14,7 @@
     padding: 15px;
 }
 
-/* To-Do App Wrapper */
+
 .todo-app {
     width: 100%;
     max-width: 550px;
@@ -25,7 +25,7 @@
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Header Styling */
+
 .todo-app h2 {
     color: #02254a;
     display: flex;
@@ -38,7 +38,7 @@
     margin-left: 12px;
 }
 
-/* Input Row Styling */
+
 .row {
     display: flex;
     align-items: center;
@@ -77,7 +77,6 @@ button:hover {
     background: #e53d24;
 }
 
-/* Task List Styling */
 ul {
     list-style: none;
     padding: 0;
@@ -122,7 +121,7 @@ ul li.checked::before {
     background-image: url("checked.png");
 }
 
-/* Delete Button Styling */
+
 ul li span {
     position: absolute;
     right: 10px;
